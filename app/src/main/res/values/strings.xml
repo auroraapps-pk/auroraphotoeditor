@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name" translatable="false">Aurora Photo Editor</string>
+    <string name="double_click_input_text" translatable="false">Double-click to enter text</string>
+    <string name="complete" translatable="false">OK</string>
+    <string name="publish_comment" translatable="false">Enter Text ......</string>
+    <string name="over_text_limit" translatable="false">You have exceeded your word limit</string>
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="manifast" translatable="false">ca-app-pub-7226836932343597~1869249125</string>
+    <string name="banner" translatable="false">ca-app-pub-7226836932343597/6837680678</string>
+    <string name="interstitial" translatable="false">ca-app-pub-7226836932343597/6371062221</string>
+    <string name="nativead" translatable="false">ca-app-pub-7226836932343597/5342079259</string>
+    <string name="ad_attribution" translatable="false">Ad</string>
+</resources>

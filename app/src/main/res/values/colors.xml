@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3d3d3d</color>
+    <color name="colorPrimaryDark">#f0eeef</color>
+    <color name="colorAccent">#DD2C00</color>
+    <color name="downloadButton">#0e0e0e</color>
+
+    <color name="toolbar_lite">#1F1F29</color>
+    <color name="toolbar">#1F1F29</color>
+    <color name="backgroundset">#12121C</color>
+
+    <color name="color_header">#3d3d3d</color>
+    <color name="view_pager_header_back">#424242</color>
+    <color name="white">#ffffff</color>
+    <color name="seekbar_background">#a8424242</color>
+
+    <color name="background">#bb000000</color>
+    <color name="main_color">#ff9a00</color>
+    <color name="secondary_color">#BDBDBD</color>
+    <color name="back">#303030</color>
+    <color name="icon_color">#ffffff</color>
+
+    <color name="iron">#CCCCCC</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="red">#7f746e</color>
+    <color name="blue">#000dff</color>
+    <color name="black">#000</color>
+    <color name="semi_transperent">#66ffffff</color>
+    <color name="dark_semi_transperent">#99ffffff</color>
+    <color name="transperent">#00ffffff</color>
+
+    <!-- Bubble Input Dialog -->
+
+    <color name="grey_">#cdc0b0</color>
+    <color name="grey_8b8b8b">#8b8b8b</color>
+    <color name="black_alpha_95">#f3000000</color>
+    <color name="red_e73a3d">#e73a3d</color>
+    <color name="backcolor">#d26634</color>
+    <color name="main_text">#262626</color>
+    <color name="menubackColor">#177890</color>
+
+    <!-- Color Array -->
+
+    <array name="BackColor">
+        <item name="ffaa66">#f0f8ff</item>
+        <item name="0374ff">#ffefdb</item>
+        <item name="03e6ff">#cdc0b0</item>
+        <item name="dbdbdb">#7fffd4</item>
+        <item name="7f0000">#76eec6</item>
+        <item name="78909C">#458b74</item>
+        <item name="795548">#f0ffff</item>
+        <item name="80ff00">#c1cdcd</item>
+        <item name="40ff00">#838b8b</item>
+        <item name="00ff00">#f5f5dc</item>
+        <item name="00ff40">#ffe4c4</item>
+        <item name="00ff80">#eed5b7</item>
+        <item name="00ffc0">#cdb79e</item>
+        <item name="00febf">#0000ff</item>
+        <item name="00ffff">#00008b</item>
+        <item name="00c0ff">#8a2be2</item>
+        <item name="0080ff">#a52a2a</item>
+        <item name="0040ff">#ff4040</item>
+        <item name="0000ff">#ee3b3b</item>
+        <item name="4000ff">#cd3333</item>
+        <item name="8000ff">#8b2323</item>
+        <item name="c000ff">#5f9ea0</item>
+        <item name="ff00ff">#98f5ff</item>
+        <item name="ff00c0">#8ee5ee</item>
+        <item name="ff0080">#7ac5cd</item>
+        <item name="ff0040">#53868b</item>
+        <item name="ff0000">#7fff00</item>
+        <item name="ff4000">#76ee00</item>
+        <item name="ff8000">#66cd00</item>
+        <item name="ffc000">#458b00</item>
+        <item name="ffff00">#d2691e</item>
+        <item name="c0ff00">#ff7f24</item>
+        <item name="ee7621">#ee7621</item>
+        <item name="cd661d">#cd661d</item>
+        <item name="ff7f50">#ff7f50</item>
+        <item name="ff7256">#ff7256</item>
+        <item name="ee6a50">#ee6a50</item>
+        <item name="cd5b45">#cd5b45</item>
+        <item name="8b3e2f">#8b3e2f</item>
+        <item name="fff8dc">#fff8dc</item>
+        <item name="eee8cd">#eee8cd</item>
+        <item name="cdc8b1">#cdc8b1</item>
+        <item name="8b8878">#8b8878</item>
+        <item name="00ffff">#00ffff</item>
+        <item name="00eeee">#00eeee</item>
+        <item name="00cdcd">#00cdcd</item>
+        <item name="008b8b">#008b8b</item>
+        <item name="b8860b">#b8860b</item>
+        <item name="ffb90f">#ffb90f</item>
+        <item name="eead0e">#eead0e</item>
+        <item name="cd950c">#cd950c</item>
+        <item name="8b6508">#8b6508</item>
+        <item name="006400">#006400</item>
+        <item name="bdb76b">#bdb76b</item>
+        <item name="556b2f">#556b2f</item>
+        <item name="caff70">#caff70</item>
+        <item name="bcee68">#bcee68</item>
+        <item name="a2cd5a">#a2cd5a</item>
+        <item name="6e8b3d">#6e8b3d</item>
+        <item name="ff8c00">#ff8c00</item>
+        <item name="ff7f00">#ff7f00</item>
+        <item name="ee7600">#ee7600</item>
+        <item name="cd6600">#cd6600</item>
+        <item name="8b4500">#8b4500</item>
+        <item name="9932cc">#9932cc</item>
+        <item name="bf3eff">#bf3eff</item>
+        <item name="b23aee">#b23aee</item>
+        <item name="9a32cd">#9a32cd</item>
+        <item name="68228b">#68228b</item>
+        <item name="8fbc8f">#8fbc8f</item>
+        <item name="c1ffc1">#c1ffc1</item>
+        <item name="b4eeb4">#b4eeb4</item>
+        <item name="ee6a50">#9bcd9b</item>
+        <item name="cd5b45">#698b69</item>
+        <item name="8b3e2f">#2f4f4f</item>
+        <item name="fff8dc">#97ffff</item>
+        <item name="eee8cd">#8deeee</item>
+        <item name="cdc8b1">#79cdcd</item>
+        <item name="8b8878">#00ced1</item>
+        <item name="00ffff">#528b8b</item>
+        <item name="00eeee">#ff1493</item>
+        <item name="00cdcd">#ee1289</item>
+        <item name="008b8b">#cd1076</item>
+        <item name="b8860b">#8b0a50</item>
+        <item name="ffb90f">#00bfff</item>
+        <item name="eead0e">#009acd</item>
+        <item name="cd950c">#00688b</item>
+        <item name="8b6508">#ff3030</item>
+        <item name="006400">#ee2c2c</item>
+        <item name="bdb76b">#8b1a1a</item>
+        <item name="556b2f">#ffd700</item>
+        <item name="caff70">#cdad00</item>
+        <item name="bcee68">#8b7500</item>
+        <item name="a2cd5a">#1a1a1a</item>
+        <item name="6e8b3d">#404040</item>
+        <item name="ff8c00">#636363</item>
+        <item name="ff7f00">#969696</item>
+        <item name="ee7600">#c9c9c9</item>
+        <item name="cd6600">#ff69b4</item>
+        <item name="8b4500">#cd6090</item>
+        <item name="9932cc">#8b3a62</item>
+        <item name="bf3eff">#ff6a6a</item>
+        <item name="b23aee">#8b3a3a</item>
+        <item name="9a32cd">#fff68f</item>
+        <item name="68228b">#cdc673</item>
+        <item name="8fbc8f">#8b864e</item>
+        <item name="c1ffc1">#ffb6c1</item>
+        <item name="b4eeb4">#eea2ad</item>
+        <item name="b4eeb4">#8b5f65</item>
+        <item name="b4eeb4">#20b2aa</item>
+        <item name="bdb76b">#54ff9f</item>
+        <item name="556b2f">#43cd80</item>
+        <item name="caff70">#2e8b57</item>
+        <item name="bcee68">#ffa54f</item>
+        <item name="a2cd5a">#cd853f</item>
+        <item name="6e8b3d">#8b5a2b</item>
+        <item name="ff8c00">#ff6347</item>
+        <item name="ff7f00">#cd4f39</item>
+        <item name="ee7600">#8b3626</item>
+        <item name="cd6600">#ff3e96</item>
+        <item name="8b4500">#cd3278</item>
+        <item name="9932cc">#8b2252</item>
+        <item name="bf3eff">#ffff00</item>
+        <item name="b23aee">#cdcd00</item>
+        <item name="9a32cd">#8b8b00</item>
+
+    </array>
+
+</resources>

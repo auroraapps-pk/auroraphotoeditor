@@ -1,0 +1,47 @@
+{
+  "Masks": [
+    {
+      "MaskName": "m1-blur-10",
+      "BlendOverlay": {
+        "Status": "OFF",
+        "Opacity": "255",
+        "DefaultFile": "f1-color-burn"
+      },
+      "BlendColor": {
+        "Status": "ON",
+        "Opacity": "180",
+        "DefaultFile": "clr1"
+      },
+      "Blur": {
+        "Status": "OFF",
+        "Value": "3"
+      }
+    },
+    {
+      "MaskName": "m2",
+      "BlendOverlay": {
+        "Status": "ON",
+        "Opacity": "180",
+        "DefaultFile": "f1-color-burn"
+      },
+      "BlendColor": {
+        "Status": "OFF",
+        "Opacity": "255",
+        "DefaultFile": "clr1"
+      }
+    },
+    {
+      "MaskName": "m3",
+      "BlendOverlay": {
+        "Status": "OFF",
+        "Opacity": "255",
+        "DefaultFile": "f1-color-burn"
+      },
+      "BlendColor": {
+        "Status": "ON",
+        "Opacity": "180",
+        "DefaultFile": "clr1"
+      }
+    }
+  ]
+}

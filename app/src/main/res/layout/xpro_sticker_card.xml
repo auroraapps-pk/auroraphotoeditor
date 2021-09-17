@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="60dp"
+    android:layout_height="60dp"
+    android:layout_marginBottom="8dp"
+    android:layout_marginTop="5dp">
+
+        <ImageView
+            android:id="@+id/imgStickerIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:id="@+id/down_icon"
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:layout_margin="3dp"
+            android:src="@drawable/ic_lens_black_24dp"
+            android:tint="@color/colorPrimary"/>
+</RelativeLayout>

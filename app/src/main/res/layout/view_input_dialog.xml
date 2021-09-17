@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_alpha_95">
+
+    <TextView
+        android:id="@+id/tv_show_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="33"
+        android:textColor="@color/grey_8b8b8b"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tv_action_done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:text="@string/complete"
+        android:textColor="@color/red_e73a3d"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/et_bubble_input"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_below="@id/tv_action_done"
+        android:background="@null"
+        android:gravity="center"
+        android:hint="@string/publish_comment"
+        android:imeOptions="actionDone"
+        android:inputType="text|textMultiLine"
+        android:padding="10dp"
+        android:singleLine="false"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+</RelativeLayout>

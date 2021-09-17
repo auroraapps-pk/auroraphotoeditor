@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:padding="50dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/logo_name" />
+
+<!--
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bg" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_alignParentBottom="true"
+                android:padding="50dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/logo_name">
+
+                <TextView
+                    android:id="@+id/iv_start"
+                    android:layout_width="150dp"
+                    android:gravity="center"
+                    android:layout_centerHorizontal="true"
+                    android:layout_height="45dp"
+                    android:text="Start"
+                    android:padding="10dp"
+                    android:background="@drawable/round_corner_bg"
+                    android:textColor="@color/back"
+                    android:textSize="20dp"
+                    />
+                <RelativeLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/iv_start"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+                    <CheckBox
+                        android:id="@+id/cb_tr"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:shadowColor="@color/white"
+                        android:buttonTint="@color/white"
+                        />
+
+                    <TextView
+                        android:layout_toEndOf="@+id/cb_tr"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="Accept terms and conditions"
+                        android:textColor="@color/white"
+                        />
+                </RelativeLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+-->
+
+</RelativeLayout>

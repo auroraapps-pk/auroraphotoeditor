@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.auroraapps.auroraphotoeditor">
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application android:requestLegacyExternalStorage="true"
+        android:name="com.auroraapps.auroraphotoeditor.AuroraArielGarten"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:usesCleartextTraffic="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon">
+
+        <activity android:name="com.auroraapps.auroraphotoeditor.AuroraCantista.AuroraMantid" android:screenOrientation="portrait" />
+        <activity android:name="com.auroraapps.auroraphotoeditor.AuroraDirkBikkembergs.AurorajulesFrancoisCrahay.AuroraDabdea" android:screenOrientation="portrait" />
+        <activity android:name="com.auroraapps.auroraphotoeditor.AuroraCantista.AuroraLajavab" android:screenOrientation="portrait" />
+        <activity android:name="com.auroraapps.auroraphotoeditor.AuroraRuthTarvydas.AuroraRichardTyler.AuroraPnanterist" android:screenOrientation="portrait" />
+        <activity android:name="com.auroraapps.auroraphotoeditor.AuroraPeterJackson.AuroraJennyKee.AuroraBentesta" android:screenOrientation="portrait" />
+        <activity android:name="com.auroraapps.auroraphotoeditor.AuroraCantista.AuroraLantesta" android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.yalantis.ucrop.UCropActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"  />
+        <activity android:name="com.auroraapps.auroraphotoeditor.AuroraCantista.AuroraPrexissesta" android:screenOrientation="portrait" />
+        <activity android:name="com.auroraapps.auroraphotoeditor.AuroraCantista.AuroraZeqale" android:screenOrientation="portrait" />
+        <activity android:name="com.auroraapps.auroraphotoeditor.AuroraCantista.AuroraJentalmenata" android:screenOrientation="portrait" />
+        <activity android:name="com.auroraapps.auroraphotoeditor.AuroraPentagon.AuroraAmberRenae.AuroraTempoll" android:screenOrientation="portrait" />
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/manifast"/>
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.auroraapps.auroraphotoeditor.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true"
+            >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/files"/>
+
+        </provider>
+    </application>
+</manifest>
